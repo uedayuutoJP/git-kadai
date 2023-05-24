@@ -133,6 +133,7 @@ main table {
     margin: 0 auto;
     width: 100%;
     justify-content: space-around;
+    
 }
 
 main table #newsText {
@@ -147,5 +148,5 @@ main table tr {
 main table tr td {
     width: 50%;
     padding: 48px 18px;
-
+    border: 2px purple;
 }
