@@ -6,6 +6,12 @@
   color: #333333;
   letter-spacing: 0.05em;
 }
+@media (min-width: 767px) {
+  .sp {
+    display: none;
+  }
+}
+
 h2 {
   font-size: 20px;
   letter-spacing: 0.05em;
@@ -29,14 +35,14 @@ a {
   background-color: #000;
   padding: 10px;
 }
-nav ul {
+.pc ul {
   display: flex;
 }
-nav li {
+.pc li {
   padding: 0 5px;
   font-size: 10px;
 }
-nav li a {
+.pc li a {
   color: #fff;
   font-weight: bold;
 }
@@ -69,7 +75,7 @@ h1 {
   font-size: 10px;
 }
 .pancake div {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 .pancake a {
@@ -149,6 +155,42 @@ footer p {
 
 /* スマホ向け */
 @media (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+  .spnav {
+    position: fixed;
+  }
+  .spnav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    width: 100vh;
+    height: 100vh;
+    top: -150px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    opacity: 0;
+  }
+  .sp a {
+    color: #fff;
+  }
+  .on button {
+    font-size: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+  }
   .section_items {
     flex-direction: column;
     align-items: center;
