@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+/* ヘッダー内の見た目 */
+header {
+    margin: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 48px;
+}
+
+#lane {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav ul {
+    /* margin: 0 10px; */
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#title {
+    text-align: center;
+    margin: 12px 0;
+}
+
+#title h1 {
+    font-size: 36px;
+    display: block;
+    margin: 0;
+}
+#title #subText {
+    font-size: 8px;
+    display: inline;
+}
+
+/* 現在のリンクページレイアウト */
+#thisIndex {
+    background-color: #ddd;
+    padding-left: 5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #222;
+}
+
+#thisIndex a {
+    text-decoration: none;
+    color: #222;
+}
+
+/* ページの内容 */
+main {
+    width: 70%;
+    margin: 64px auto;
+}
+
+main h1 {
+    font-weight: normal;
+    font-size: 34px;
+    color: #222;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main section {
+    height: auto;
+    /* vertical-align: middle; */
+    display: flex;
+    margin-bottom: 32px;
+}
+
+main section #date {
+    color: #222;
+    display: block;
+    /* vertical-align: middle; */
+}
+
+main section #category {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 4px 8px;
+    display: inline;
+}
+
+main p {
+    color: #222;
+    margin-bottom: 48px;
+}
+
+main h2 {
+    color: #222;
+    display: flex;
+}
+
+#h2-box {
+    height: auto;
+    width: 6px;
+    background-color: purple;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+
+main h3 {
+    color: #222;
+    margin-bottom: 8px;
+}
+
+/* 関連記事のレイアウト */
+main table {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+main table #newsText {
+    text-align: center;
+}
+
+main table tr {
+    display: flex;
+    justify-content: space-around;
+}
+
+main table tr td {
+    width: 50%;
+    padding: 48px 18px;
+
+}
